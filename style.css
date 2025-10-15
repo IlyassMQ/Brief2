@@ -1,24 +1,48 @@
-nav {
+.flex{
     display: flex;
+}
+
+nav{
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
+    border-radius: 5px;
     color: white;
-    background-color: darkblue;
+    background-color: rgb(2, 2, 77);
 }
-.navbar ul {
-    display: flex;
+
+
+.nav-pages ul {
     gap: 25px;
     list-style: none;
     margin-right: 20px;
-    border: 1 px solid;
+    
 }
 .navbar {
-    display: flex;
     align-items: center;
 }
 .navbar a {
 color: white;
 text-decoration: none;
+}
+
+.btn button{
+background-color: rgba(10, 10, 155, 0.519);
+color: white;
+border: 1px solid black;
+border-radius: 4px;
+height: 2.5rem;
+}
+.partie1{
+    border: 1px solid;
+}
+.partie2{
+    border: 1px solid;
+}
+.partie3{
+    border: 1px solid;
+}
+footer {
+border: 1px solid;
 
 }
