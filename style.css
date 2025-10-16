@@ -1,11 +1,10 @@
-
-
 body {
     height: 100vh;
     margin: 0;
     font-family: sans-serif;
     background-color: #111;
 }
+
 
 .border {
     border: 1px solid;
@@ -53,6 +52,10 @@ a {
 .logo {
     width: 25%;
 }
+.logo a {
+    color: #00cfff;
+    font-size: 30px;
+}
 
 
 .btn-auth {
@@ -84,9 +87,12 @@ a {
 }
 footer {
     background-color: black;
-    
-    color: white;
     padding: 2rem;
+    border-top:3px solid #00cfff;
+    color: white;
+}
+footer h3{
+color: #47cce9;
 }
 footer ul {
     list-style: none;
@@ -108,7 +114,11 @@ footer ul li {
 }
 
 .footer-about {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
     padding-left: 2rem;
+    gap: 3rem;
 }
 
 .footer-description {
@@ -123,6 +133,10 @@ footer ul li {
     justify-content: space-around;
     margin-top: 2rem;
     border-top: 0.5px solid white;
+}
+.footer-middle-contacts a{
+    margin-top: 0;
+    
 }
 
 .footer-bottom {
@@ -141,10 +155,16 @@ footer ul li {
 display: flex;
 gap: 90px;
 }
+.footer-column-titre{
+    color: #47cce9;
+
+}
 .icons{
+    display: flex;
+    gap: 30px;
     width: 24px;
     height: 24px;
-    background-color: black;
+    color: #47cce9  ;
     border-radius: 51%;
 }
 
@@ -186,5 +206,6 @@ gap: 90px;
     font-size: 1.2rem;
     font-weight: 300;
 }
+
 
 
