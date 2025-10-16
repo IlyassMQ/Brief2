@@ -1,11 +1,15 @@
+
 body {
     height: 100vh;
     margin: 0;
     font-family: sans-serif;
-    background-color: #111;
+    background-color: #0E2439;
+    display: flex;
+    flex-direction: column;
 }
-
-
+section{
+    height: 100vh;
+}
 .border {
     border: 1px solid;
 }
@@ -44,7 +48,7 @@ a {
     padding-left: 50px;
     border-radius: 5px;
     color: white;
-    background-color: black;
+    background-color: #0D2338 ;
     height: 5rem;
 
 }
@@ -69,24 +73,25 @@ a {
     background: linear-gradient(to right, #00cfff, #b300ff);
     color: white;
     border: 1px solid black;
-    border-radius: 4px;
-    height: 2rem;
+    border-radius: 9px;
+    height: 2.5rem;
     width: 10rem;
     padding: 0 1rem;
     margin-top: 0.5rem;
-    
+    font-size: 15px;
 }
 .btn-auth button {
     background: linear-gradient(to right, #00cfff, #b300ff);
     color: white;
     border: 1px solid black;
-    border-radius: 4px;
-    height: 2rem;
+    border-radius: 9px;
+    height: 2.5rem;
     width:6rem;
     padding: 0 1rem;
+    font-size: 15px;
 }
 footer {
-    background-color: black;
+    background-color: #0E2439;
     padding: 2rem;
     border-top:3px solid #00cfff;
     color: white;
@@ -175,13 +180,14 @@ gap: 90px;
 }
 .hero {
    
-    background: url("./assets/Arena2.png");
+    background: url("./assets/Cyberpunk_Arena.png");
     background-size: cover;
     background-position: center;
     height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 20vh;
     padding-bottom: 40vh;
 
 }
@@ -202,10 +208,88 @@ gap: 90px;
     
 }
 
-.hero-content h5 {
-    font-size: 1.2rem;
+.hero-content p {
+    font-size: 1.4rem;
     font-weight: 300;
+}
+.heroBTNS{
+display: flex;
+justify-content: center;
+gap: 3rem;
+}
+.trailer-btn button{
+background-color: transparent;
+border:2px solid#47cce9;
+border-radius: 9px;
+color: white;
+height: 2.5rem;
+width: 10rem;
+padding: 0 1rem;
+margin-top: 0.5rem;
+font-size: 15px;
 }
 
 
+.signupNow{
+display: flex;
+flex-direction: column;
+background-color: #0E2439;
+gap: 20px;
+color:black;
+align-items: center;
+justify-content: center;
+margin: 8rem 0;
 
+}
+
+.signupNow-carte{
+    color: white;
+    background-color: #192A3A;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #47cce9  ;
+    border-radius: 20px;
+    width: 50vw;
+    height: 40vh;
+    gap: 1rem;
+}
+.games-card{
+    justify-content: center;
+    align-items: center;
+    padding: 9rem 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    
+}
+
+.card-row1{
+    position: relative;
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    
+  }
+  .card-row1 img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  .card-text {
+    position: absolute;
+    left: 16px;
+    bottom: 16px;
+    color: white;
+  }
+  .card-text h5{
+    margin: 4px 0;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .card-text h6{
+    color: #00cfff;
+  }
