@@ -3,7 +3,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: sans-serif;
-    background-color: #0E2439;
+    background-color: #0a1a2a;
     display: flex;
     flex-direction: column;
 }
@@ -48,7 +48,8 @@ a {
     padding-left: 50px;
     border-radius: 5px;
     color: white;
-    background-color: #0D2338 ;
+    background-color: #0a1a2a ;
+    
     height: 5rem;
 
 }
@@ -180,7 +181,7 @@ gap: 90px;
 }
 .hero {
    
-    background: url("./assets/Cyberpunk_Arena.png");
+    background: url("./assets/Arena2.png");
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -233,7 +234,7 @@ font-size: 15px;
 .signupNow{
 display: flex;
 flex-direction: column;
-background-color: #0E2439;
+background-color: #0a1a2a;
 gap: 20px;
 color:black;
 align-items: center;
@@ -266,7 +267,7 @@ margin: 8rem 0;
     gap: 3rem;
     
 }
-.games-card-2{
+.games-card-row2{
     justify-content: center;
     align-items: center;
     padding-bottom:5rem;
@@ -299,7 +300,6 @@ margin: 8rem 0;
     left: 16px;
     bottom: 10px;
     color: white;
-    padding-top: 10px;
   }
   
   .card-text h5{
@@ -315,3 +315,81 @@ margin: 8rem 0;
   .card-text p{
     opacity: 0.5;
   }
+
+  /* TOURNAMENNNNNNNNNNNNNNNNNNNNNNT */
+  .card-tr,.card-tr2{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    gap: 50px; 
+    margin-left: 17%;
+    padding-bottom: 5rem;
+    
+  }
+  
+  .card{
+    border: 1.5px solid #00cfff;
+    border-radius: 10px;
+    height: 335px;
+    width: 290px;
+    background-color: #02052b;
+    
+  }
+  
+  .card-tr img,.card-tr2 img{
+    height: 150px;
+    width:100%;
+    border-bottom:4px solid #00cfff;
+    border-radius: 9px;
+    object-fit: cover;
+    
+  }
+  .card-tr-txt,.card-bl-txt{
+   margin-left: 1rem;
+
+  }
+
+.card-tr-txt p:nth-child(1){
+    color: white;
+    font-size: small;
+}
+.card-tr-txt p:nth-child(2){
+    color: white;
+    font-size: small;
+    opacity: 0.5;
+}
+.card-tr-txt p:nth-child(3){
+    color: white;
+    opacity: 0.5;
+    font-size: small;
+    text-align: center;
+
+}
+.join{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.join a{
+color: #00cfff;
+padding-left: 10px;
+}
+/* Bloooooooooog */
+.card-bl{
+    
+
+
+}
+
+.auteur{
+justify-content: space-between;
+display: flex;
+flex-direction: row;
+}
+.card-bl-txt p{
+    color: white;
+}
+
+
+
