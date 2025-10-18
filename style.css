@@ -504,3 +504,59 @@ justify-content: space-between;
     padding: 10px;
     border-radius: 7px;
 }
+
+
+.contact, .login,.signup{
+  width: 50vw;
+  margin: 5rem auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #06192c;
+border: 2px solid;
+}
+
+.contact h2,.login h2,.signup h2{
+  margin-bottom: 20px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+.contact p {
+  margin-top: 0px;
+  text-align: center;
+  color: white;
+  opacity: 0.5;
+}
+
+.contact-form .row{
+  display: flex;
+  margin-bottom: 15px;
+}
+.row{
+    gap: 20px;
+
+}
+.contact-form input,.contact-form textarea{
+  flex: 1;
+  padding: 12px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: #0a1a2a;
+}
+.form-btn{
+    display: flex;
+    justify-content: center;
+}
+input::placeholder,textarea::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+input,textarea{
+    color: white;
+}
+/* LOGIN */
+.login{
+width: 30vw;
+
+}
